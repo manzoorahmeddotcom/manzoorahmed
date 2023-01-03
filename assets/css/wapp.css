@@ -1,0 +1,170 @@
+.whatsappForm {
+	font-family: sans-serif;
+	font-size: .9em;
+	color: #1e2a28;
+	width: 400px;
+	margin: 0 auto;
+	padding: 5px 20px 20px 20px;
+}
+
+.whatsappForm h2 {
+	font-weight: normal;
+	text-align: center;
+	color:#07b14b;
+}
+
+.whatsappForm textarea, .whatsappForm-textarea {
+	width: 300px;
+}
+
+.whatsappForm button {
+	width: 220px;
+    padding: 3px 0px;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #28a95b;
+    color: #FFF;
+    margin: 0px 20px 5px 0;
+    border: #2fb162 1px solid;
+}
+
+.whatsappForm button:focus {
+	outline: none;
+}
+
+.whatsappForm .whatsappFormRow {
+	padding-top: 15px;
+}
+
+#whatsappFormResponse {
+	padding: 6px 2px;
+	display: none;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align:center;
+    color: #6c9c58;
+	box-sizing: border-box;
+	margin: 0px;
+	border-radius: 3px;
+	width: 100%;
+	overflow: auto;
+}
+
+.whatsappForm .error {
+	padding: 6px 0px;
+	display: inline-block;
+    color: red;
+	
+}
+
+.whatsappForm .success {
+	background-color: #48e0a4;
+	border: #40cc94 1px solid;
+}
+
+#whatsappFormSubmit:hover {
+	background: #28a95b;
+	border: #28a95b 1px solid;
+}
+
+.whatsappForm .label {
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.whatsappFormRow .label span:first-child {
+	color: #ff0000;
+}
+
+.whatsappFormCls {
+	border: #0e0e0e 1px solid;
+	padding: 5px 25px 10px 25px;
+	border-radius: 3px;
+}
+
+.whatsappForm input[type="radio"] {
+	width: auto;
+}
+
+.radioselection .radio {
+  display: inline-block;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+.radioselection input {
+  width: auto;	
+  vertical-align: middle;
+  margin-left: 0;
+  display: initial;
+  opacity: initial;
+  position: inherit;
+  pointer-events: initial;  
+}
+.radioselection .radiolabel {
+  vertical-align: middle;
+  color: #1e2a28;
+}
+
+.whatsappForm input[type="checkbox"] {
+	width: auto;
+}
+
+.checkboxes .checkbox {
+  display: inline-block;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+.checkboxes input {
+  width: auto;	
+  vertical-align: middle;
+  margin-left: 0;
+  display: initial;
+  opacity: initial;
+  position: inherit;
+  pointer-events: initial;  
+}
+.checkboxes .checkbox-label {
+  vertical-align: middle;
+  color: #1e2a28;
+}
+
+.whatsappForm .display-none {
+	display: none;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+input[type=text].whatsappForm-input, .whatsappForm input, .whatsappForm textarea,
+	.whatsappForm-input {
+	box-sizing: border-box;
+	width: 300px;
+	height: initial;
+	padding: 8px 5px;
+	border: 1px solid #9a9a9a;
+	border-radius: 3px;
+}
+
+@media all and (max-width: 767px) {
+	.whatsappForm {
+		width: auto;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.whatsappForm {
+		padding: 0px 20px;
+	}
+	.whatsappForm h1 {
+		font-size: 1.2em;
+	}
+	.whatsappForm input, .whatsappForm textarea {
+		width: 100%;
+	}
+	.whatsappFormCls {
+		border: none;
+		padding: 0;
+	}
+}
