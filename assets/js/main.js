@@ -397,9 +397,9 @@
   // 19. Google Map
   function basicmap() {
     let mapOptions = {
-      zoom: 13,
+      zoom: 35,
       scrollwheel: false,
-      center: new google.maps.LatLng(30.2026324, 66.9870024), // New York
+      center: new google.maps.LatLng(30.2026324, 66.9870024), // Quetta
       // This is where you would paste any style found on Snazzy Maps.
       styles: [
         {
@@ -416,7 +416,7 @@
           "elementType": "geometry.stroke",
           "stylers": [
             {
-              "color": "#9c9c9c"
+              "color": "#00010e"
             }
           ]
         },
@@ -434,7 +434,7 @@
           "elementType": "all",
           "stylers": [
             {
-              "color": "#f2f2f2"
+              "color": "#ffffff"
             }
           ]
         },
@@ -491,7 +491,7 @@
           "elementType": "labels.text.fill",
           "stylers": [
             {
-              "color": "#7b7b7b"
+              "color": "#020315"
             }
           ]
         },
@@ -536,7 +536,7 @@
           "elementType": "all",
           "stylers": [
             {
-              "color": "#46bcec"
+              "color": "#ea252c"
             },
             {
               "visibility": "on"
@@ -548,7 +548,7 @@
           "elementType": "geometry.fill",
           "stylers": [
             {
-              "color": "#c8d7d4"
+              "color": "#ea252c"
             }
           ]
         },
