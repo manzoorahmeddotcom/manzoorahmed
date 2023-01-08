@@ -399,7 +399,7 @@
     let mapOptions = {
       zoom: 13,
       scrollwheel: false,
-      center: new google.maps.LatLng(40.712776, -74.005974), // New York
+      center: new google.maps.LatLng(30.2026324, 66.9870024), // New York
       // This is where you would paste any style found on Snazzy Maps.
       styles: [
         {
@@ -575,10 +575,10 @@
     let mapElement = document.getElementById("map");
     let map = new google.maps.Map(mapElement, mapOptions);
     let marker = new google.maps.Marker({
-      position: new google.maps.LatLng(40.712776, -74.005974),
+      position: new google.maps.LatLng(30.2026324, 66.9870024),
       map: map,
-      title: "Nijhum",
-      icon: "https://res.cloudinary.com/camicrouser/image/upload/v1658162660/Priyo-Map-Marker.png",
+      title: "Manzoor Ahmed",
+      icon: "/assets/images/shape/location.png",
     });
   }
 
