@@ -397,7 +397,7 @@
   // 19. Google Map
   function basicmap() {
     let mapOptions = {
-      zoom: 35,
+      zoom: 22,
       scrollwheel: false,
       center: new google.maps.LatLng(30.2026324, 66.9870024), // Quetta
       // This is where you would paste any style found on Snazzy Maps.
